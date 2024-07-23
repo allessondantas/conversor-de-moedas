@@ -12,7 +12,7 @@
 - CSS
 
 - Js
-- 
+
 <br>
 <img src="https://github.com/allessondantas/easy-shopping-one/blob/master/img.one.png?raw=true"/>
 <br>
