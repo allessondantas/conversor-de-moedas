@@ -16,4 +16,4 @@
 <br>
 <img src="https://github.com/allessondantas/conversor-de-moedas/blob/master/assets/conversor%20de%20moedas%20-%20pc.png"/>
 <br>
-<img src="https://github.com/allessondantas/easy-shopping-one/blob/master/img.two.png?raw=true"/>
+<img src="https://github.com/allessondantas/conversor-de-moedas/blob/master/assets/conversor%20de%20moedas%20-%20mobie.png?raw=true"/>
