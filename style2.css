@@ -1,0 +1,110 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin-top: 47px;
+    margin-left: 42px;
+   
+}
+
+.superior{
+    margin-right: 32px;
+    color: rgba(23, 35, 61, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.superior, a:hover{
+    color:rgb(53, 30, 156);
+
+}
+
+.superior, a:active{
+    color:rgb(30, 156, 36);
+    opacity: 8;
+
+}
+
+#Botão{
+    width: 124px;
+    height: 51px;
+    border: 1px;
+    background-color: #6FBF44;
+    border-color: rgba(76, 181, 56, 1);
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: white;
+}
+
+#Botão:hover {
+    background-color:rgb(76, 181, 56, 1);
+}
+
+#Botão:active {
+    background-color:rgb(49, 19, 19);
+}
+
+
+main{
+    display: inline-block;
+}
+
+img{
+    margin: 100px 0px 0px 121px;
+    margin-left: 121px;
+    width: 595.18px;
+    height: 500px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    margin-left: 84.82px;
+}
+
+.one{
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    line-height: 82px;
+    color: rgba(22, 26, 73, 1);
+    font-size: 62px;
+    letter-spacing: 0.596154px;
+}
+
+.two{
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    line-height: 33px;
+    color: rgba(75, 80, 90, 1);
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+a{
+    width: 112px;
+    line-height: 27px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: rgba(111, 191, 68, 1);
+    cursor: pointer;
+}
