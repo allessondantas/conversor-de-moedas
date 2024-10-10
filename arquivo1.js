@@ -88,25 +88,26 @@ const h1 = document.querySelector("h1")
 
 const html = document.querySelector("html")
 
-element.placeholder = "Eu vou conseguir"
+
 
 
 console.log(element.placeholder)
 
 const button = document.querySelector(".my-button")
-const at = document.getElementsByClassName("parágrafo-js")
+const texto = document.getElementsByClassName("parágrafo-js")
 
 button.style.color = "white"
 button.style.backgroundColor = "black"
-at.style.color = "red"
+texto.style.color = "red"
+
 
 
 
 function avançar() {
-
     element.placeholder = "Eu vou chegar lá"
     h1.style.color = "black"
     html.style.backgroundColor = "blue"
+    
 }
 
 function voltar() {
@@ -114,6 +115,13 @@ function voltar() {
     element.placeholder = "irei ser um programador"
     h1.style.color = "red"
     html.style.backgroundColor = "purple"
+}
+
+function início() {
+    element.placeholder = "Digite aqui"
+    h1.style.color = "white"
+    html.style.backgroundColor = "aqua"
+    
 }
 
 const text = document.querySelector("p.text")

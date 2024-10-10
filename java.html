@@ -12,10 +12,11 @@
         <h1>JavaScript</h1>
     </header>
     <main>
-        <input id="my-input" placeholder="Digite aqui">
+        <input onfocus="document" id="my-input" placeholder="Digite aqui">
         <p class="parágrafo-js"> Começando nossa Jornada para aprender</p>
         <p class="parágrafo-js">A linguagem de Programação mais <b>versátil do mundo</b></p>
         <button onclick="avançar()" class="my-button">Clique aqui para avançar</button>
+        <button onclick="início()" class="my-button1">Clique aqui para o início</button>
         <button onclick="voltar()" class="my-button">Clique aqui para voltar</button>
     </main>
 
@@ -26,6 +27,16 @@
             padding: 0;
             box-sizing: border-box;
         }
+
+        
+
+        input{
+            width: 440px;
+            height: 30px;
+            border-radius: 10px;
+            border-color: black;
+        }
+
 
         main {
             display: block;
@@ -46,15 +57,18 @@
             text-align: center
         }
 
-
-
-
         h1 {
             color: blue;
         }
 
         button {
             background: red;
+            border-radius: 25px ;
+            cursor: pointer;
+        }
+
+        .my-button1{
+            background: rgb(86, 60, 60);
         }
 
         p {
