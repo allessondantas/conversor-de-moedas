@@ -3,6 +3,7 @@ const convertButton = document.querySelector(".click")
 const select = document.querySelector(".euro-dolar")
 
 
+convertButton.addEventListener("click", convertValues)
 function convertValues() {
 
     
@@ -35,6 +36,7 @@ function convertValues() {
 }
 
 
+select.addEventListener("change", changeCurrency) 
 function changeCurrency(){
     const name = document.getElementById("two")
     const img = document.querySelector(".bandeira")
@@ -53,8 +55,6 @@ function changeCurrency(){
 }
 
 
-select.addEventListener("change", changeCurrency) 
-convertButton.addEventListener("click", convertValues)
 
 
 
