@@ -5,18 +5,19 @@ const select = document.querySelector(".euro-dolar")
 
 
 convertButton.addEventListener("click", convertValues)
-const convertValues = async () => {
 
-    
+async function convertValues() {
+
     const input = document.querySelector(".currency").value
     const US = document.querySelector(".value-two")
     const brasil = document.querySelector(".value-one")
     
+    const url = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then( response => response.json())
 
-    const data = await feach("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then(response => response.json())
+    console.log(url)
 
-    const dolarToday = data.USDBRL.high
-    const euroToday = data.EURBRL.high
+    const dolarToday = url.USDBRL.high
+    const euroToday = url.EURBRL.high
 
     
     if(select.value == "dolar"){
